@@ -10,13 +10,7 @@ npm install react-native-mds
 
 ## Usage
 
-```js
-import { multiply } from 'react-native-mds';
 
-// ...
-
-const result = await multiply(3, 7);
-```
 
 ## Contributing
 
