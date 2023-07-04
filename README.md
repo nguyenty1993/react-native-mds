@@ -8,9 +8,6 @@ Marathon react native component
 npm install react-native-mds
 ```
 
-## Usage
-
-
 
 ## Contributing
 
