@@ -11,3 +11,5 @@ export {
   styled,
   ServerStyleSheet,
 };
+
+export * from './components/atoms/button';
