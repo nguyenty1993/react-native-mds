@@ -23,9 +23,11 @@ const PressableButton: React.FC<PressableButtonProps> = ({
   onPress,
   bgColor,
   title,
-}) => (
-  <ButtonContainer onPress={onPress} bgColor={bgColor}>
-    <ButtonText>{title}</ButtonText>
-  </ButtonContainer>
-);
+}) => {
+  return (
+    <ButtonContainer onPress={onPress} bgColor={bgColor}>
+      <ButtonText>{title}</ButtonText>
+    </ButtonContainer>
+  );
+};
 export default PressableButton;
