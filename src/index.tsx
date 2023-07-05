@@ -1,10 +1,10 @@
-import Button from './components/atoms/button';
+import PressableButton from './components/atoms/button';
 
 import styled, { ThemeProvider, ServerStyleSheet } from 'styled-components';
 
 export {
   // atoms
-  Button,
+  PressableButton,
 
   // re-export styled
   ThemeProvider,
